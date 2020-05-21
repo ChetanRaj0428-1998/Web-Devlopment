@@ -1,0 +1,50 @@
+body
+{
+	background-color:red;
+}
+
+h1
+{
+	color:blue;text-align: center;
+}
+
+pre
+{
+	color: green; font-size: 30px;
+}
+
+h2
+{
+	color: yellow: text-align:right;
+}
+
+img
+{
+	height:150;width=150;
+}
+
+p.c1
+{
+	color: blue; text-style:normal;font-size: 20px;
+}
+
+p.c2
+{
+	color: white; text-style:italic;font-size: 20px;
+}
+
+
+p.c3
+{
+	color: blue; text-style:oblique;font-size: 20px;
+}
+
+#awsum
+{
+	color:green;text-size:30px;font-size: 20px;
+}
+
+a
+{
+	font-size: 40px;color:green; text-align: center; 
+}

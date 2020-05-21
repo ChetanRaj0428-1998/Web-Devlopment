@@ -1,0 +1,60 @@
+body
+{
+background: rgba(102, 211, 47, 0.8);
+background-image: url("https://cdn3.iconfinder.com/data/icons/hotel-and-restaurant-17/64/128-512.png");
+background-repeat: no-repeat;
+background-position:right top ;
+background-attachment: fixed;
+background-size: 200px; 
+
+}
+p
+{
+	font-size: 50px;
+	text-align: center;
+	color: rgb(252, 5, 5 ,0.5);
+	border-style: solid;
+	margin-left:400px;
+	margin-right: 400px;
+	background: rgba(252, 218, 5  ,0.6);
+}
+
+div
+{
+	border-style: solid;
+	border-color: rgba(246, 110, 16,0.6);
+	border-radius: 15px;
+	background-color:rgba(246, 110, 16,0.6);
+	margin-left:300px; 
+	margin-right: 150px;
+	margin-top: -150px;
+	padding-left: 100px;
+	padding-right: 50px;
+
+
+}
+
+th
+{
+	border: 1px solid #54DA15;
+	border-width: 4px;
+	border-radius: 7px;
+	color: rgba(21, 93, 218, 0.7);
+	font-size: 50px;
+	padding-right: 40px;
+	padding-left: 10px;	
+	background: rgba(233, 252, 5, 0.5);
+	font-family: Sans-serif	;
+
+}
+
+
+a
+{
+	text-decoration-line: none;
+}
+
+table
+{
+border-spacing: 20px;
+}
