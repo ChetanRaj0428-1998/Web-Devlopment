@@ -1,0 +1,14 @@
+#official version for the node docker image 
+FROM node:10 
+#creating a directory and store the work
+WORKDIR /app   
+# asking docker to copy the JSON file & since the DockerFile is in project folder no need to specify the path
+COPY package.json /app 
+#package in the specified JSON file are installed
+RUN npm install 
+# '.' => means current directory & asking Docker to copy everything in  that directory into app folder
+COPY . /app 
+# used to run specified command
+CMD node app.js   
+# replaces your application's default port
+EXPOSE 3000 
