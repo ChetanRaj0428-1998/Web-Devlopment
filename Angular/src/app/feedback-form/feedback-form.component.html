@@ -1,0 +1,54 @@
+<p>feedback-form works!</p>
+
+<form #f="ngForm" (ngSubmit)="SubmitForm(f.value)">
+   <!---- <h1>{{f.value}}</h1>--> 
+    <div ngModelGroup="Fullname">
+        <div class="form-group">
+          <!---- <h1>{{test}}</h1>
+            <h2>{{ myfnarray }}</h2>-->
+           
+        <label for="firstname"> First Name: </label>
+        <input  required minlength="4" ngModel name="firstname" #firstname="ngModel" id="firstname" (change)="log(firstname)" class="form-control" > <!---class="form-control"Used to make the element more attractive-->
+        
+        <label class="radio-inline"><input type="radio" value="AM" name="gender" [(ngModel)]="gender" required #genderControl="ngModel"> AM</label>
+            <label class="radio-inline"><input type="radio" value="PM" name="gender" [(ngModel)]="gender" required > PM</label>
+        
+
+            <div class="alert alert-danger" *ngIf="firstname.touched && firstname.invalid ">
+                <div *ngIf="firstname.errors.required ">
+            First Name is required
+            </div>
+                <div *ngIf="firstname.errors.minlength ">
+                    Min length is 4
+                    </div>
+                </div>  
+                <h2>{{ mylnarray }}</h2>
+        <label for="lastname"> Last Name: </label>
+        <input  #lnameval  ngModel name="lastname" #lastname="ngModel" id="lastname"  (change)="log(lastname)" class="form-control"> 
+        
+        <label class="radio-inline"><input type="radio" value="AM" name="gender1" [(ngModel)]="gender1" required #genderControl="ngModel"> AM</label>
+            <label class="radio-inline"><input type="radio" value="PM" name="gender1" [(ngModel)]="gender1" required> PM</label>
+        
+
+        </div> 
+    </div>
+    <h2>{{ myfbarray }}</h2>
+        <div class="form-group">
+                <label for="feedback"> Feed-Back: </label>
+                <textarea #fbval  ngModel name="feedback" id="feedback" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+                <button class="btn btn-primary" style="margin-left:520px;" >Submit</button>
+                <button class="btn btn-danger" style="margin-left:20px;" [disabled]="!f.valid">Cancel</button>
+<div class="checkbox">
+    <label>
+        <input type="checkbox" ngModel name="agree"> I agree </label>
+    </div>
+<div class="dropdown">
+    <label for="contactMethod">Contact Method</label>
+    <select ngModel name="contactMethod" id="contactMethod" class="form-control">
+        <option disabled>Select One</option>
+        <option *ngFor="let method of contactMethod" [value]="method.value">{{method.name}}</option>
+    </select>
+    </div>
+</form>
+
