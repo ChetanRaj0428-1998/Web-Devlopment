@@ -1,0 +1,11 @@
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Angular</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li routerLinkActive="active current" [routerLinkActiveOptions]="{exact:true}"><a  routerLink="">Home</a></li>
+            <li routerLinkActive="active current" ><a routerLink="response"  >Response</a></li>
+            <li routerLinkActive="active current"><a routerLink="feedback"  >Feedback</a></li><!--We Use routerLink to make it SPA(single page application) instead of href for faster routing and routerLinkActive to make the current page active on nav bar for the user's convenience-->
+          </ul>
+    
