@@ -1,0 +1,12 @@
+<ul *ngFor="let data of temp" >
+    <li>{{data._id}}</li>
+    <li>{{data.firstname}}</li>
+    <li>{{data.lastname}}</li>
+    <li>{{data.phone}}</li>
+</ul>
+
+<p>Post Test</p>
+<p>id: {{post?.id}}</p>     <!--It takes time to retrieve hence we add '?' to avoid that error-->
+<p>UserId: {{post?.userId}}</p>
+<p>Title: {{post?.title}}</p>
+<p>Body: {{post?.body}}</p>
