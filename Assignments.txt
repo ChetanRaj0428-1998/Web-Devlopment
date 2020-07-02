@@ -1,0 +1,35 @@
+Inteview In-Office
+Day 1
+Research:
+
+- Unit Testing
+- Test Driven Development
+- MVC(Model View Controller) Architecture
+
+
+June 3rd Started Internship
+Day 2
+Create a page with a sidebar having dynamic days where the users can enter days 
+where each day has an input text field called 'task' in the body where users can type the tasks they've
+done which get diplayed below the input field dynamically and then either delete the task or update/confirm it.
+
+Progress: Done with template. Just have to correct the logic and add. Done only have to do more tests and remove small errors.
+
+
+Day 3:
+My Task:
+Understand the structure of two modules namely feature3 and right-side-panel actually welcome should find out to route it.
+
+Should start picking up on Unit Testing, Test Driven Development and MVS Architecture
+
+Day 4
+
+Documented and understood the template.
+
+Now Carrying on with the typescript. Done 90% with typescript with documentation. Now should brushup with CSS and research on some new concepts.
+
+Day 5
+
+Now make the code  to run. A form needs to be displayed. Work in cllaboration with colleugue.
+
+
