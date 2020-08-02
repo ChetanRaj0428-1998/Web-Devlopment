@@ -9,7 +9,7 @@ Install the JSON server by running `npm install -g json-server`
 
 ## Run the JSON server
 Open a terminal and navigate i.e)cd to the project directory then run 
-'json-server --watch db.json' and the server will start running on `http://localhost:3000/` .
+`json-server --watch db.json` and the server will start running on `http://localhost:3000/` .
 
 To check if server is running type this url
 `http://localhost:3000`
