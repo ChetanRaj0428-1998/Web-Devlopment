@@ -1,27 +1,24 @@
-# Http
+# Creating a Fake Backend/ Local Backend Server using JSON-server and using HTTP methods to perform CRUD operation using Angular 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-## Development server
+##After Cloning
+Run 'npm i' to install the node modules then install the JSON server by running 'npm install -g json-server'
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##Run the JSON server
+Open a terminal and navigate i.e)cd to the project directory then run 
+'json-server --watch db.json' and the server will start running from 'http://localhost:3000/' .
 
-## Code scaffolding
+To check if server is running type this url
+'http://localhost:3000'
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To check the data in the local db file type this url 'http://localhost:3000/data'
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+##Build and serve the Angular Project
+Run ng serve
 
-## Running unit tests
+##Resources
+https://www.npmjs.com/package/json-server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
