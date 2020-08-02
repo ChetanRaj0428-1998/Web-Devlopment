@@ -1,38 +1,27 @@
-# Creating a Fake Backend/ Local Backend Server using JSON-server and using HTTP methods to perform CRUD operation in Angular 
+# Http
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-## After Cloning
-Open a terminal and navigate i.e)cd to the project directory then:
+## Development server
 
-Run `npm i` to install the node modules
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `npm install -g json-server` to install the JSON-server
+## Code scaffolding
 
-## Run the JSON server
-Run `json-server --watch db.json` and the server will start running on `http://localhost:3000/` .
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-To check if server is running type this url
-`http://localhost:3000`
+## Build
 
-To check the data in the local db file type this url `http://localhost:3000/data`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Running unit tests
 
-## Build and serve the Angular Project
-Run `ng serve` to display it on the browser on `http://localhost:4200/`
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-## Usage
-You can perform the Create, Read, Delete and Update operations. 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Further help
 
-## Hints
-While configuring or creating a new data object in the `db.json` file make sure you include `id` with values to perform Create, Delete and Update operations. 
-
-There is only one property `Name` in the `db.json` file but you can configure this project and have more properties.
-
-
-## Resources
-https://www.npmjs.com/package/json-server
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

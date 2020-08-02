@@ -31,7 +31,7 @@ post()
   this.httpService.postData(this.posts)
   .pipe(map(data=> this.get() ))
   .subscribe();
-  
+  this.posts.Name=undefined;
 }
 
 delete(id)
@@ -49,12 +49,12 @@ put(id)
   //console.log(this.posts.Name);
   if(this.posts.Name!=undefined)
   {this.httpService.putData(this.posts,id)
-    .subscribe(postdata => console.log(postdata));
+    .subscribe(postdata => this.get());
     this.updateFlag=''
     this.posts.Name=undefined
-    this.get();
+    
   }
-  
+  this.get();
 }
 
 }
