@@ -22,10 +22,14 @@ Run `ng serve` to display it on the browser on `http://localhost:4200/`
 
 
 ## Usage
-You can perform the Create, Read, Delete and Update operations. There is only one property `Name` in the `db.json` file but you can configure this project and have more properties.
+You can perform the Create, Read, Delete and Update operations. 
+
 
 ## Hints
 While configuring or creating a new data object in the `db.json` file make sure you include `id` with values to perform Create, Delete and Update operations. 
+
+There is only one property `Name` in the `db.json` file but you can configure this project and have more properties.
+
 
 ## Resources
 https://www.npmjs.com/package/json-server
