@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## After Cloning
 Open a terminal and navigate i.e)cd to the project directory then:
+
 Run `npm i` to install the node modules
 
 Run `npm install -g json-server` to install the JSON-server
