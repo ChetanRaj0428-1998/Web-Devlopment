@@ -1,4 +1,4 @@
-# Creating a Fake Backend/ Local Backend Server using JSON-server and using HTTP methods to perform CRUD operation using Angular 
+# Creating a Fake Backend/ Local Backend Server using JSON-server and using HTTP methods to perform CRUD operation in Angular 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
