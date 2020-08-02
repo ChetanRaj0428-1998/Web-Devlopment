@@ -20,6 +20,13 @@ To check the data in the local db file type this url `http://localhost:3000/data
 ## Build and serve the Angular Project
 Run `ng serve` to display it on the browser on `http://localhost:4200/`
 
+
+## Usage
+You can perform the Create, Read, Delete and Update operations. There is only one property `Name` in the `db.json` file but you can configure this project and have more properties.
+
+## Warning
+While configuring or creating a new data object in the `db.json` file make sure you include `id` to perform Create, Delete and Update. 
+
 ## Resources
 https://www.npmjs.com/package/json-server
 
