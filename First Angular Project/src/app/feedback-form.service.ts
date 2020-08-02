@@ -14,7 +14,8 @@ this.value=x.Fullname.gender1;
 this.value1=x.Fullname.gender;
 console.log(x);
   }
-    getData()
+    
+  getData()
     {  
      return this.feedback;
     }

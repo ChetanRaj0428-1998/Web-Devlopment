@@ -6,4 +6,3 @@ export interface Interface{
     _v: number
 }
 
-//

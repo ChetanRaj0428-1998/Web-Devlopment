@@ -1,0 +1,21 @@
+<h3>Accessing Http Server Using Observables</h3>
+<h4>HTTP GET REQUEST</h4>
+<ul *ngFor="let item of data">
+    <li>{{item.Name}} </li>
+</ul>
+
+<h4>HTTP POST REQUEST</h4>
+    <input type="text" value="Malesh" [(ngModel)]="posts.Name">
+    <button type="submit"  (click)="post()">Submit</button>
+
+
+    <h4>HTTP DELETE REQUEST</h4>
+    <ul *ngFor="let item of data">
+        <li>{{item.Name}} <button (click)="delete(item.id)">Delete</button> </li>
+    </ul>
+
+    <h4>HTTP UPDATE REQUEST</h4>
+    <ul *ngFor="let item of data">
+        <li>{{item.Name}} <button (click)="put(item.id)">Update</button><pre></pre> <span *ngIf="updateFlag==item.id"><input type="text" placeholder="Update Item... " [(ngModel)]="posts.Name"> </span> </li>
+
+    </ul>

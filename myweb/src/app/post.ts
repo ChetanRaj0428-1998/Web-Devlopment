@@ -1,7 +1,7 @@
 export class Posts
 {
-    userId: number;
-    id: number;
-    title: string;
-    body:string;
+   id:number; //userId: number;
+    firstname:string;//id: number;
+   lastname:string;// title: string;
+    phone:number;//body:string;
 }

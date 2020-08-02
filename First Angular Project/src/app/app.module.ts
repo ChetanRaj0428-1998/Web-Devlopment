@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { ResponseComponent } from './response/response.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FeedbackFormService } from './feedback-form.service';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 
 
@@ -20,7 +22,7 @@ import { FeedbackFormService } from './feedback-form.service';
   declarations: [
     AppComponent,
     CoursesComponent,
-    SpecialComponent, LinksCourses, FeedbackFormComponent, NavbarComponent, HomeComponent, ResponseComponent, NotFoundComponent//register the component   
+    SpecialComponent, LinksCourses, FeedbackFormComponent, NavbarComponent, HomeComponent, ResponseComponent, NotFoundComponent, ParentComponent, ChildComponent//register the component   
   ],
   imports: [
     BrowserModule, FormsModule, RouterModule.forRoot([

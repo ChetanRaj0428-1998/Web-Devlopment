@@ -13,6 +13,6 @@ username;password;
   }
 loginUser()
 {
-  console.log(this.username+this.password); 
+  console.log("Output"+this.username+this.password); 
 }
 }

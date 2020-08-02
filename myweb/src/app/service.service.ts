@@ -21,7 +21,7 @@ private _url = "http://localhost:3000/api/contacts";
 
 posts(post:Posts): Observable<any>
 {
-  return this.http.post("https://jsonplaceholder.typicode.com/posts", post);
+  return this.http.post("http://localhost:3000/api/contacts", post);
 }
     
 }

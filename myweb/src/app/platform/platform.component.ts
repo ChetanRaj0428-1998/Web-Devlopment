@@ -17,22 +17,18 @@ post: Posts;
     this.service.getData()
       .subscribe(data =>this.temp = data);
       var posts = new Posts();
-      posts.body='Hi This is the body';
-      posts.title='This is the title';
-      posts.userId=98;
+      posts.firstname='Hi This is the body';
+      posts.lastname='This is the title';
+      posts.phone=223498;
       this.service.posts(posts)
-      .subscribe
-      (
-        data=>
-        {
-          this.post=data;
-        }
-      )
+      .subscribe(contact=>{
+        this.temp.push(contact);
     
 }
 
+      ) 
 
-
+}
 
 
 }
