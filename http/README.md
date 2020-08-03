@@ -16,7 +16,7 @@ The server starts running on http://localhost:3000/
 
 
 ## Build and Serve
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Usage
 Perform the CRUD operations.
