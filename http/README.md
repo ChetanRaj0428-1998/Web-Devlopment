@@ -1,27 +1,28 @@
-# Http
+# Creating a Fake/ Local Backend server using the JSON Server and performing CRUD operations using HTTP requests.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+ [Angular CLI] version 10.0.2.
 
-## Development server
+Get a full fake REST API with zero coding in less than 30 seconds (seriously)
 
+## Instal node Modules
+Run `npm i` to install the node modules
+
+## Create the JSON Server
+Run `npm install -g json-server` to install in the project Directory.
+
+## Start the JSON-Server
+Open CMD/Terminal and navigate to project directory and run `json-server --watch db.json` to start the server. 
+The server starts running on http://localhost:3000/
+
+
+## Build and Serve
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Usage
+Perform the CRUD operations.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Hints
 
-## Build
+This project uses only one property `Name` in the `db.json` JSON file but you can configure the file and the project to have more properties,
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+While creating a new JSON file make sure the objects have an `id` property to avoid 500 Error Code.
