@@ -23,6 +23,6 @@ Perform the CRUD operations.
 
 ## Hints
 
-This project uses only one property `Name` in the `db.json` JSON file but you can configure the file and the project to have more properties,
+This project uses only one property `Name` in the `db.json` JSON file but you can configure the file and the application to have more properties,
 
 While creating a new JSON file make sure the objects have an `id` property to avoid 500 Error Code.
